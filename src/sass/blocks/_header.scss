@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    &-official {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        span {
+            font-size: 18px;
+            line-height: 29px;
+            display: block;
+            font-family: 'MuseoModerno';
+        }
+    }
+    &-phone {
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 18px;
+        &:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &-contacts {
+        text-align: center;
+    }
+}

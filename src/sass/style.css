@@ -1,0 +1,9 @@
+.container {
+  max-width: 950px;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background-image: url(../fonts/bg.png);
+}/*# sourceMappingURL=style.css.map */

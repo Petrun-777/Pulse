@@ -1,0 +1,117 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 0 0;
+    background: url(../fonts/bg.png)no-repeat;
+    // background-size: 100%;
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &-header {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 42px;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+    &-subheader {
+        margin-top: 17px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        line-height: 24px;
+    }
+    &-icons {
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-icon {
+        width: 108px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &-link {
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 25px;
+        margin-top: 15px;
+        a {
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+    }
+    @media (max-width: 375px) {
+        .header {
+            margin-bottom: 70px;
+            &-logo {
+                width: 110px;
+            }
+            &-official {
+                font-size: 10px;
+                span {
+                    font-size: 10px;
+                }
+            }
+            &-phone {
+                font-size: 10px;
+            }
+            button {
+                display: none;
+            }
+        }
+        .promo-icons {
+            margin-top: 50px;
+            justify-content: center;
+            img {
+                width: 25px;
+                margin-bottom: 10px;
+            }
+        }
+        .promo-icon {
+            width: 116px;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .promo-wrapper {
+            margin-top: 0;
+        }
+        .promo-header {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 700;
+        }
+        .promo-subheader {
+            font-size: 14px;
+            margin: 0;
+        }
+        .promo-wrapper {
+            .button-main {
+                width: 230px;
+                height: 35px;
+                margin-top: 45px;
+                font-size: 13px;
+            }
+        }
+        .promo-link {
+            margin-top: 5px;
+            font-size: 12px;
+            width: 230px;
+            text-align: right;
+        }
+    }
+}

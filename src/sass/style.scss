@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+$main-color:  #C70101;
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import '../sass/blocks/header';
+@import '../sass/blocks/promo';
+@import '../sass/blocks/buttons';
+@import '../sass/blocks/benefits';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/media';
+@import '../sass/blocks/carousel';
+@import '../sass/blocks/catalog';
+@import '../sass/blocks/reviews';
+@import '../sass/blocks/footer';
+@import '../sass/blocks/modal';
+@import '../sass/blocks/pageup';
+@import '../sass/blocks/animations';
